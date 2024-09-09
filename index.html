@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" data-bs-theme="light">
+<html lang="es" data-bs-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -42,7 +42,18 @@
               >Sobre mí</a
             >
             <a class="nav-link" href="#proyectos">Proyectos</a>
-            <a class="nav-link" href="#contacto">Contacto</a>
+            <a class="nav-link me-4" href="#contacto">Contacto</a>
+            <div class="form-check form-switch d-flex align-items-center gap-2">
+              <input
+                class="form-check-input my-4"
+                type="checkbox"
+                id="darkModeSwitch"
+                checked
+              />
+              <label class="form-check-label" for="darkModeSwitch">
+                Dark Mode
+              </label>
+            </div>
           </div>
         </div>
       </div>
@@ -420,7 +431,7 @@
 
         <div class="row container justify-content-center mt-5">
           <!-- Left -->
-          <article class="col-md-5 align-self-center">
+          <article class="col-lg-5 align-self-center">
             <ul class="list-unstyled mb-5">
               <li class="mb-5 fw-semibold fs-5">
                 <svg
@@ -531,7 +542,7 @@
           </article>
 
           <!-- Right -->
-          <article class="col-10 col-md-5 mb-4">
+          <article class="col-10 col-lg-5 mb-4">
             <!-- Logo -->
             <div class="row justify-content-center mb-4">
               <img
@@ -550,5 +561,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="index.js"></script>
   </body>
 </html>
